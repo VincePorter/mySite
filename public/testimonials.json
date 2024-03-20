@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Mr Richard Hanson",
+		"location": "Shepparton, Victoria",
+		"picture": "https://randomuser.me/api/portraits/men/23.jpg",
+		"testimony": "I recently had the pleasure of working with Vince on a web development project. He was extremely knowledgeable and helpful throughout the entire process. His development skills were top-notch, and he was able to quickly create a website that was both aesthetically pleasing and highly functional. He also provided excellent hosting services that allowed us to launch the website quickly and efficiently. I would highly recommend Vince for any web development project!"
+	},
+	{
+		"name": "Miss Leta Banks",
+		"location": "Mildura, Victoria",
+		"picture": "https://randomuser.me/api/portraits/women/52.jpg",
+		"testimony": "I recently had the pleasure of working with Vince on a web development project. He was great to work with - he was very knowledgeable about development, design, and hosting, and he was able to provide great advice and guidance throughout the process. I would highly recommend Vince for any web development project!"
+	},
+	{
+		"name": "Mr Javier Richards",
+		"location": "Kalgoorlie, Western Australia",
+		"picture": "https://randomuser.me/api/portraits/men/84.jpg",
+		"testimony": "I recently worked with a web development team led by Vince and I couldn't be happier with the results. They provided excellent development, design, and hosting services that allowed us to create a website that was both visually appealing and functional. I highly recommend Vince and his team for any web development project!"
+	}
+]

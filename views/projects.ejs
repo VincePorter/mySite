@@ -1,0 +1,24 @@
+<!-- Projects -->
+<section id="projects" class="container d-none d-sm-block text-white text-start">
+	<div class="row">
+		<h2 class="fw-bold mb-3">Projects</h2>
+		<% projects.forEach((project) => { %>
+		<div class="col-xs-12 col-sm-4 col-md-3 mb-3">
+			<a href="<%= project.link %>" target='_blank'>
+				<div class="card">
+					<img src="<%= project.screenshot %>" class="card-img-top img-fluid" alt="...">
+					<div class="card-body">
+						<h5 class="card-title fw-bold"><%= project.appName %> <span class='fs-6 fw-light'>- <%= project.year %></span></h5>
+						<div class='text-center'>
+							<% project.technologies.forEach((technology) => { %>
+							<img src="<%= technology %>" alt="" class="logos" style='height: 20px'>
+							<% }) %>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		<% }); %>
+	</div>
+	<hr class="border border-white border-2">
+</section>

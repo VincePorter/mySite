@@ -1,0 +1,114 @@
+// custom variable values
+// $dark: #5f0f40;
+// $primary: #9a031e;
+// $secondary: #e36414;
+// $light: #fb8b24;
+
+// more custom colors
+$dark: #610c9f;
+$primary: #940b92;
+$secondary: #da0c81;
+$light: #e95793;
+
+// more custom colors
+// $dark: #001b79;
+// $primary: #1640d6;
+// $secondary: #ed5ab3;
+// $light: #ff90c2;
+
+// more custom colors
+// $dark: #6b240c;
+// $primary: #994d1c;
+// $secondary: #e48f45;
+// $light: #f5cca0;
+
+body {
+	background-image: linear-gradient($dark, $primary, $secondary, $light);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 4em !important;
+}
+
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 3em !important;
+}
+
+#myName {
+	font-family: 'Satisfy', cursive;
+	font-size: 2em !important;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	// padding: 15px;
+}
+
+#subject {
+	display: none;
+}
+.testimonials {
+	position: relative;
+	padding: 0;
+}
+.testimonials__card {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 2rem 1.25rem;
+	border-radius: 0.625rem;
+	height: auto;
+	text-align: center;
+}
+.testimonials__card i {
+	font-size: 1.5rem;
+	color: $primary;
+}
+// .testimonials__card .ratings i {
+// color: $primary;
+// font-size: 1rem;
+// }
+.testimonials__picture {
+	width: 6rem;
+	height: 6rem;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+	border: 0.325rem solid $secondary;
+}
+.testimonials__name {
+	padding-top: 3rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+.testimonials__name h3 {
+	padding-top: 0.8rem;
+	text-transform: capitalize;
+}
+.testimonials__name p {
+	padding-bottom: 2rem;
+	text-transform: capitalize;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// custom theme colours
+$custom-theme-colors: (
+	'altlight': $dark,
+	'altdark': $light,
+);
+
+// merge the maps to add new theme colors
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
